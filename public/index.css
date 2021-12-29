@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+body{
+   font-family: 'Open Sans',serif;
+}
+
+#top-words {
+    font-family: 'antonia_h1bold',serif;
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    padding: 0;
+}
+
+#side-number {
+    font-family: 'antonia_h1bold',serif;
+    font-size: 50px;
+    position:absolute;
+    top:10px;
+    right: 40px;
+    color: #fff;
+    transform: rotate(90deg);
+    padding: 0;
+}
+
+#second-words {
+    font-family: 'Open Sans',serif;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    padding: 0;
+}
+
+#blue-box {
+    height: 100vh;
+    max-width:100%;
+    background-color: #2F7CB4;
+    border: solid 10px rgb(255, 255, 255);
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+#white {
+    height: 100vh;
+	width: 100vw;
+    margin: 0;
+	padding: 0;
+}
+
+
+@font-face {
+    font-family: 'antonia_h1bold';
+    src: url('antoniah1-bold.woff2') format('woff2'),
+        url('antoniah1-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{ 
+	font-family: 'MyWebFont';
+	src: url('WebFont.eot');
+	src: url('WebFont.eot?#iefix') format('embedded-opentype'),
+	     url('WebFont.woff') format('woff'),
+	     url('WebFont.ttf') format('truetype'),
+	     url('WebFont.svg#webfont') format('svg');
+}
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
